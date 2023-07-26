@@ -37,7 +37,7 @@ Kokomi 是一个轻量、可拓展、可定制的 Python 机器人插件，支�
 ## 关于 ISSUE
 
 如果您有对于代码方面的问题，可以通过以下方式联系到作者：
-- 在 Github 的项目里提交 ISSUE
+- 在 [Github](https://github.com/SangonomiyaKoko) 的项目里提交 ISSUE
 - 加入 [Discord](https://discord.gg/GjgmvQ2BHX) 或 [KOOK](https://kook.top/N8Ymq2) 的官方频道
 - QQ群聊：164933984
 - 邮箱：3197206779@qq.com
