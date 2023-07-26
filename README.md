@@ -50,4 +50,5 @@ Kokomi 是一个轻量、可拓展、可定制的 Python 机器人插件，支�
 感谢以下开发者对 Kokomi 作出的贡献：
 - Yukki
 - udaloi
+- Henry
 - BladeOfMiquella
