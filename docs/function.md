@@ -1,25 +1,60 @@
-
 # 功能列表
 
 1.所有命令都为wws开头才可以响应
 
 2.参数之间一定要记得打空格
 
-3.除了部分功能外，其他功能均不支持通过 服务器+ID 的方式查询，需要先行绑定
+3.可以通过@查询群友的数据
+
+4.除了部分功能外，其他功能均不支持通过 服务器+ID 的方式查询，需要先行绑定
 > ~~给孩子留点隐私吧~~
+
 
 |命令格式| 状态| 示例| 说明|
 |--|--|--|--|
 |wws `服务器` set `游戏ID`|✅|wws asia set kokomi|绑定游戏账号|
-|wws `me/@`|✅|wws me|查询账号总水表|
-|wws `me/@` rank|✅|wws me rank|查询账号排位赛季数据|
-|wws `me/@` info|⬜|wws me info|查询账号总水表(详细)|
-|wws `me/@` clan|⬜|wws me clan|查询账号所属工会信息|
-|wws `me/@` ship `船名`|✅|wws me ship 岛风|查询单船数据|
-|wws `me/@` ships `筛选条件`|✅|wws me ships 美国 10 巡洋|查询指定范围内船只的数据，筛选条件可以使是 国家，等级，类型 ，参数数量无限制|
-|wws `me/@` recent `数字`|✅|wws me recent 7|查询账号近期 随机战斗 数据|
-|wws `me/@` rank recent `数字`|✅|wws me rank recent 7|查询账号近期 排位战斗 数据|
-|wws `me/@` ship rank `船名`|✅|wws me ship rank 岛风|查询船只数据在wows number上的排名|
+|wws me|✅|wws me|查询账号总水表|
+|wws me rank|✅|wws me rank|查询账号排位赛季数据|
+|wws me info|⬜|wws me info|查询账号总水表(详细)|
+|wws me clan|⬜|wws me clan|查询账号所属工会信息|
+|wws me ship `船名`|✅|wws me ship 岛风|查询单船数据|
+|wws me ships `筛选条件`|✅|wws me ships 美国 10 巡洋|查询指定范围内船只的数据，筛选条件可以使是 国家，等级，类型 ，参数数量无限制|
+|wws me recent `数字`|✅|wws me recent 7|查询账号近期 随机战斗 数据|
+|wws me rank recent `数字`|✅|wws me rank recent 7|查询账号近期 排位战斗 数据|
+|wws me ship rank `船名`|✅|wws me ship rank 岛风|查询船只数据在wows number上的排名|
 |wws `服务器` ship rank `船名`|✅|wws asia ship rank 岛风|查询船只在wows number上的排名榜(前50名)|
 
-# 其他
+
+# 相关说明
+
+## 使用ac查询战绩
+
+> 隐藏战绩后，如果可以提供ac一样可以在kokomi查询战绩。以亚服为例，步骤如下
+
+1.打开该网站https://profile.worldofwarships.asia/，登录后会看到自己的数据
+
+2.在个人资料隐私设置中，选择 `通过链接开放` 
+
+3.把获取到的链接交给作者并设置许可查询的账号(qq号或者其他平台账号)
+
+注：只有你设置许可的账号才能查询数据，其他人无法查询你的数据
+
+## recent功能
+
+1.数据从绑定的那一刻开始记录，如果账号超过 90 天未有recent查询记录，系统将自动删除储存的recent数据
+
+2.数据更新通常在 0 点左右，但由于数据更新需要较长时间，22-0 点内的数据可能会出现记录到第二天的情况( 23-24 点手动查询一次recent可以避免该情况)
+
+3.凌晨 0-4 点时间段查询recent，会默认加一天。
+
+> 例如 0-4 点查询 wws me recent 表示昨天 0 点到现在的数据记录,其他时间表示今天 0 点到现在的数据记录
+
+## 排行榜功能
+
+1.数据来自 wows number 网站，目前只支持亚欧美服
+
+2.查询不到自己船只排名数据可能有一下原因
+- 场数不够。一艘船需要打到足够多的场数才能计入排行榜
+- 未更新数据。number网站采用的是触发式更新，需要自己手动更新数据
+
+3.更新方法：去wows number网站上搜索并打开自己账号的数据页面，等待数据更新完成，耐心等待10-20分钟即可更新排行榜数据
