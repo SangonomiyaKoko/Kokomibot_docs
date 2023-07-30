@@ -23,6 +23,7 @@
 |wws me rank recent `数字`|✅|wws me rank recent 7|查询账号近期 排位战斗 数据|
 |wws me ship rank `船名`|✅|wws me ship rank 岛风|查询船只数据在wows number上的排名|
 |wws `服务器` ship rank `船名`|✅|wws asia ship rank 岛风|查询船只在wows number上的排名榜(前50名)|
+|wws roll `筛选条件`|✅|wws roll 10 巡洋|不知道玩什么，那就让机器人随机抽一艘吧！筛选条件可以使是 国家，等级，类型 ，参数数量无限制|
 
 
 # 相关说明
