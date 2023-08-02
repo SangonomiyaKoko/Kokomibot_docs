@@ -15,7 +15,6 @@
 |wws `服务器` set `游戏ID`|✅|wws asia set kokomi|绑定游戏账号|
 |wws me|✅|wws me|查询账号总水表|
 |wws me rank|✅|wws me rank|查询账号排位赛季数据|
-|wws me info|⬜|wws me info|查询账号总水表(详细)|
 |wws me clan|✅|wws me clan|查询账号所属工会信息|
 |wws me clan season `赛季`|✅|wws me clan season 21|查询账号所属工会的指定赛季数据，不接参数默认获取最新赛季数据，当前为21赛季|
 |wws me clan season all|✅|wws me clan season all|查询账号所属工会所有赛季数据|
@@ -26,6 +25,11 @@
 |wws me ship rank `船名`|✅|wws me ship rank 岛风|查询船只数据在wows number上的排名|
 |wws `服务器` ship rank `船名`|✅|wws asia ship rank 岛风|查询船只在wows number上的排名榜(前50名)|
 |wws roll `筛选条件`|✅|wws roll 10 巡洋|不知道玩什么，那就让机器人随机抽一艘吧！筛选条件可以使是 国家，等级，类型 ，参数数量无限制|
+|wws me info|⬜|wws me info|查询账号总水表(详细)|
+|wws search `筛选条件`|⬜|wws search 10 dd |查询指定范围内的船只信息(名称，等级)|
+|wws me 日历/rl|⬜|wws me 日历|--|
+|wws me 扫雪/sx|⬜|wws me 扫雪|--|
+|wws me 圣诞/sd|⬜|wws me 圣诞|--|
 
 
 # 相关说明
