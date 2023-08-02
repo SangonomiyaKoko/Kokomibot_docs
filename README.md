@@ -52,3 +52,30 @@ Kokomi 是一个轻量、可拓展、可定制的 Python 机器人插件，支�
 - udaloi
 - Henry
 - BladeOfMiquella
+
+- ## 赞助通道
+
+> 
+
+<details>
+<summary>爱发电</summary>
+
+![图片](docs\support\afd.jpg "爱发电")
+
+</details>
+
+
+<details>
+<summary>微信</summary>
+
+![图片](docs\support\wx.jpg "微信")
+
+</details>
+
+
+<details>
+<summary>支付宝</summary>
+
+![图片](docs\support\zfb.jpg "支付宝")
+
+</details>
