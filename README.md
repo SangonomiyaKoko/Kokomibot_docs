@@ -68,7 +68,7 @@ Kokomi 是一个轻量、可拓展、可定制的 Python 机器人插件，支�
 <details>
 <summary>微信</summary>
 
-![图片](docs/support/wx.jpg "微信")
+![图片](docs/support/wx.png "微信")
 
 </details>
 
