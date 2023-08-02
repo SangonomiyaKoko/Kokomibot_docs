@@ -53,9 +53,11 @@ Kokomi 是一个轻量、可拓展、可定制的 Python 机器人插件，支�
 - Henry
 - BladeOfMiquella
 
-- ## 赞助通道
+## 赞助通道
 
-> 
+收到的赞助将会用于支持Kokomibot数据服务器的运行
+
+> 可以在备注中留下你的ID/昵称，方便我统计[感谢名单](https://docs.qq.com/sheet/DRkFSQldDZGtscmdY?tab=5b0hhn)
 
 <details>
 <summary>爱发电</summary>
