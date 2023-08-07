@@ -10,7 +10,7 @@
 > ~~给孩子留点隐私吧~~
 
 
-<table border="1" width="1200px" cellspacing="10">
+<table border="1" width="800px" cellspacing="10">
 <tr>
   <th align="center">类型</th>
   <th align="left">命令格式,带''表示参数</th>
