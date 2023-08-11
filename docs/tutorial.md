@@ -1,6 +1,4 @@
-# Kokomi_bot_plugin 部署教程 (适配版本 V 3.2.7)
-
-
+# Kokomi_bot_plugin 部署教程 
 
 ## 前言
 
@@ -157,7 +155,7 @@ AttributeError: module font has no attribute getsize
 
 ### 2.4 请求协助
 
-如遇到无法解决的报错或问题，随时可以联系作者获取帮助，但请提前准备好材料，包括：
+如遇到无法解决的报错或问题，随时可以联系作者获取帮助（不一定能及时回复），但请提前准备好材料，包括：
 - **错误描述**
 - **运行报错代码截图**
 - **错误日志截图**
@@ -172,6 +170,13 @@ AttributeError: module font has no attribute getsize
 
 > 此外，`NoneBot2` 还有非常多的官方以及第三方现成的插件，可以去官网的 [商店](https://nonebot.dev/store) 下载到这些丰富有趣的插件，来丰富你机器人的功能！
 
-## 第四部-插件更新
+## 第四步-插件更新
 
 直接覆盖原文件，并重新配置 `config.py` 内的 `API_TOKEN` 即可
+
+## 结尾
+
+**很高兴你能看到这里**
+
+**如果您觉得Kokomi还不错的话，还请给项目点个小小的star 或者 投喂以支持服务器每月的开销，谢谢喵~！**
+
