@@ -137,13 +137,22 @@ python testbot.py
 - 解决办法：检查网络是否正常或者是否使用了VPN软件
 
 
-3.运行提示 **ImportError:no module named cv2/pil/httpx**
+3.运行提示:
+```
+ImportError:no module named cv2/pil/httpx
+```
 - 解决办法：检查 python 环境内是否正确安装了对应的包，如安装过依然报错请检查是否为存在多个 python 版本导致的
 
-4.运行提示 **OSError:cannot open resource**
+4.运行提示：
+```
+OSError:cannot open resource
+```
 - 解决办法：系统未安装字体导致，按照 **1.2 安装字体** 操作即可
 
-5.运行提示 `程序内部错误` ,查看错误日志提示为 **AttributeError: module font has no attribute getsize**
+5.运行提示 `程序内部错误` ,查看错误日志提示为：
+```
+AttributeError: module font has no attribute getsize
+```
 - 解决办法：`pillow` 版本不支持，请更改为 `9.1.0` ~ `9.5.0` 版本
 
 ### 2.4 请求协助
