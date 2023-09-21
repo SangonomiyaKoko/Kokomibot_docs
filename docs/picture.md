@@ -1,4 +1,4 @@
-# Kokomi_bot_plugin 图片界面自定义教程
+# nonebot_plugin_kokomi 图片界面自定义教程
 
 ## 图片生成逻辑
 
