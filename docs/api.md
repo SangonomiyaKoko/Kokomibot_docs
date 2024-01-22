@@ -41,6 +41,7 @@
 
 ## 参考数据
 
+### 评分（PR）颜色数据
 
 <table border="1" width="1000px" cellspacing="10">
 <tr>
@@ -124,6 +125,36 @@
   <td>2.0~</td>
 </tr>
 </table>
+
+### 工会颜色数据
+
+```
+clan_color = {
+    13477119: (121, 61, 182),
+    12511165: (144, 223, 143),
+    14931616: (234, 197, 0),
+    13427940: (147, 147, 147),
+    11776947: (147, 147, 147),
+    13408614: (184, 115, 51)
+}
+```
+## 测试账号
+
+1. 有数据有工会账号：asia 2023619512 SangonomiyaKokomi_
+2. 有数据无工会账号：asia 2020056880 Bilibili_Yamada
+3. 隐藏游戏数据账号：asia 2023291434 2030_1
+4. 没有游戏数据账号：asia 2020074559 kokomi_00
+5. 游戏账号删除账号：asia 2041242050 None
+
+## 接口返回值
+
+- SUCCESS：成功获取数据，此时读取data里数据
+- NETWORK FAILURE：网络请求失败
+- NETWORK TIMEOUT：网络请求超时
+- PROGRAM ERROR：程序内部错误
+- HIDDEN PROFILE：该账号隐藏战绩
+- NO STATISTICS：该账号没有统计数据
+- USER NOT EXIST：用户数据不存在
 
 ## 一、用户搜索接口
 
@@ -232,9 +263,29 @@ curl \
 #### 返回数据结构
 ```python
 {
-  'status':'ok',
-  'message':'SUCCESS',
-  'data':
+    'status': 'ok',
+    'message': 'SUCCESS',
+    'data': {
+        'nickname': None,         # 用户昵称
+        'user': {},               # 用户基本信息
+        'clan': {},               # 用户所在工会
+        'battle_type': {          # 用户数据
+            'pvp': {},
+            'pvp_solo': {},
+            'pvp_div2': {},
+            'pvp_div3': {},
+            'rank_solo': {}
+        },
+        'record': {               # 最高记录（前三个）
+            'max_battles_count': {},
+            'max_planes_killed': {},
+            'max_damage_dealt': {},
+            'max_exp': {},
+            'max_frags': {},
+            'max_total_agro': {},
+            'max_scouting_damage': {}
+        }
+    }
 }
 
 ```
@@ -245,9 +296,12 @@ curl \
 - NETWORK FAILURE：网络请求失败
 - NETWORK TIMEOUT：网络请求超时
 - PROGRAM ERROR：程序内部错误
+- HIDDEN PROFILE：该账号隐藏战绩
+- NO STATISTICS：该账号没有统计数据
+- USER NOT EXIST：用户数据不存在
 
 #### 示例
 curl \
--X 'GET' 'http://{api_url}/a/' \
+-X 'GET' 'http://{api_url}/a/basic-data/?server=asia&aid=2023619512' \
 -H 'accept: application/json' \
 -H 'Authorization: Bearer {access_token}'
