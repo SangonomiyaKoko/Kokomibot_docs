@@ -126,6 +126,120 @@
 </tr>
 </table>
 
+### 船只国家数据
+
+<table border="1" width="300px" cellspacing="10">
+<tr>
+  <th align="left">英文（接口返回值）</th>
+  <th align="center">中文</th>
+  <th align="left">缩写</th>
+</tr>
+<tr>
+  <td>commonwealth</td>
+  <td>英联邦</td>
+  <td>CW</td>
+</tr>
+<tr>
+  <td>europe</td>
+  <td>欧洲</td>
+  <td>E</td>
+</tr>
+<tr>
+  <td>france</td>
+  <td>法国</td>
+  <td>F</td>
+</tr>
+<tr>
+  <td>germany</td>
+  <td>德国</td>
+  <td>D</td>
+</tr>
+<tr>
+  <td>italy</td>
+  <td>意大利</td>
+  <td>I</td>
+</tr>
+<tr>
+  <td>japan</td>
+  <td>日本</td>
+  <td>R</td>
+</tr>
+<tr>
+  <td>netherlands</td>
+  <td>荷兰</td>
+  <td>HL</td>
+</tr>
+<tr>
+  <td>pan_america</td>
+  <td>泛美</td>
+  <td>FM</td>
+</tr>
+<tr>
+  <td>pan_asia</td>
+  <td>泛亚</td>
+  <td>C</td>
+</tr>
+<tr>
+  <td>spain</td>
+  <td>西班牙</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>uk</td>
+  <td>英国</td>
+  <td>Y</td>
+</tr>
+<tr>
+  <td>ussr</td>
+  <td>苏联</td>
+  <td>S</td>
+</tr>
+<tr>
+  <td>usa</td>
+  <td>美国</td>
+  <td>M</td>
+</tr>
+</table>
+
+图片资源；http://www.wows-coral.com/ship_nation/small/flag_{nation}.png
+
+示例：http://www.wows-coral.com/ship_nation/small/flag_usa.png
+
+### 船只类型数据
+
+<table border="1" width="300px" cellspacing="10">
+<tr>
+  <th align="left">英文（接口返回值）</th>
+  <th align="center">中文</th>
+  <th align="left">缩写</th>
+</tr>
+<tr>
+  <td>AirCarrier</td>
+  <td>航母</td>
+  <td>CV</td>
+</tr>
+<tr>
+  <td>Battleship</td>
+  <td>战列</td>
+  <td>BB</td>
+</tr>
+<tr>
+  <td>Cruiser</td>
+  <td>巡洋</td>
+  <td>CA</td>
+</tr>
+<tr>
+  <td>Destroyer</td>
+  <td>驱逐</td>
+  <td>DD</td>
+</tr>
+<tr>
+  <td>Submarine</td>
+  <td>潜艇</td>
+  <td>SS</td>
+</tr>
+</table>
+
 ### 工会颜色数据
 
 ```
@@ -138,6 +252,7 @@ clan_color = {
     13408614: (184, 115, 51)
 }
 ```
+
 ## 测试账号
 
 1. 有数据有工会账号：asia 2023619512 SangonomiyaKokomi_
@@ -303,5 +418,176 @@ curl \
 #### 示例
 curl \
 -X 'GET' 'http://{api_url}/a/basic-data/?server=asia&aid=2023619512' \
+-H 'accept: application/json' \
+-H 'Authorization: Bearer {access_token}'
+
+## 三、用户船只列表接口
+
+#### 请求方法：GET
+
+#### 请求地址：/a/ships-data/
+
+#### 接口权限：admin / user
+
+#### 请求参数：
+
+<table border="1" width="800px" cellspacing="10">
+<tr>
+  <th align="left">参数名称</th>
+  <th align="center">必要参数</th>
+  <th align="left">入参类型</th>
+  <th align="left">默认值</th>
+  <th align="left">描述</th>
+</tr>
+<tr>
+  <td>aid</td>
+  <td>√</td>
+  <td>String</td>
+  <td>\</td>
+  <td>用户account_id(UID)</td>
+</tr>
+<tr>
+  <td>server</td>
+  <td>√</td>
+  <td>ServerName(str, Enum)</td>
+  <td>\</td>
+  <td>用户服务器(asia,cn,eu,na,ru)</td>
+</tr>
+</table>
+
+#### 返回数据结构
+```python
+{
+    'status': 'ok',
+    'message': 'SUCCESS',
+    'data': {
+      'xxxxxxxxx': {          # ship_id
+        'ship_info':{         # 船只信息
+            'tier':0,
+            'type':None,
+            'nation':None,
+            'name_zh':None,
+            'name_en':None,
+            'png_url':None
+        },
+        'ship_data':{         # 船只数据
+            'battles_count': 0,
+            'win_rate': 0.0,
+            'avg_damage': 0,
+            'avg_frags': 0.0,
+            'avg_pr': 0,
+            'avg_pr_dis': 0,
+            'avg_pr_des': 'UNKNOWN',
+            'avg_pr_color': '#808080'
+        }
+      },
+      ...                     # 其他...
+      
+    }
+}
+
+```
+
+#### 返回值信息
+
+- SUCCESS：成功获取数据
+- NETWORK FAILURE：网络请求失败
+- NETWORK TIMEOUT：网络请求超时
+- PROGRAM ERROR：程序内部错误
+- HIDDEN PROFILE：该账号隐藏战绩
+- NO STATISTICS：该账号没有统计数据
+
+#### 示例
+curl \
+-X 'GET' 'http://{api_url}/a/ships-data/?server=asia&aid=2023619512' \
+-H 'accept: application/json' \
+-H 'Authorization: Bearer {access_token}'
+
+## 三、用户单船船只接口
+
+#### 请求方法：GET
+
+#### 请求地址：/a/ship-data/
+
+#### 接口权限：admin / user
+
+#### 请求参数：
+
+<table border="1" width="800px" cellspacing="10">
+<tr>
+  <th align="left">参数名称</th>
+  <th align="center">必要参数</th>
+  <th align="left">入参类型</th>
+  <th align="left">默认值</th>
+  <th align="left">描述</th>
+</tr>
+<tr>
+  <td>aid</td>
+  <td>√</td>
+  <td>String</td>
+  <td>\</td>
+  <td>用户account_id(UID)</td>
+</tr>
+<tr>
+  <td>server</td>
+  <td>√</td>
+  <td>ServerName(str, Enum)</td>
+  <td>\</td>
+  <td>用户服务器(asia,cn,eu,na,ru)</td>
+</tr>
+<tr>
+  <td>ship_id</td>
+  <td>√</td>
+  <td>String</td>
+  <td>\</td>
+  <td>船只id</td>
+</tr>
+</table>
+
+#### 返回数据结构
+```python
+{
+    'status': 'ok',
+    'message': 'SUCCESS',
+    'data': {
+        'ship_info': {          # 船只信息
+            'tier':0,
+            'type':None,
+            'nation':None,
+            'name_zh':None,
+            'name_en':None,
+            'png_url':None
+        },
+        'ship_data': {          # 船只数据
+            'pvp': {},
+            'pvp_solo': {},
+            'pvp_div2': {},
+            'pvp_div3': {}
+        },
+        'record': {             # 船只最高记录
+            'max_frags':0,
+            'max_damage_dealt':0,
+            'max_exp':0,
+            'max_total_agro':0,
+            'max_scouting_damage':0,
+            'max_planes_killed':0
+        }
+    }
+}
+
+```
+
+#### 返回值信息
+
+- SUCCESS：成功获取数据
+- NETWORK FAILURE：网络请求失败
+- NETWORK TIMEOUT：网络请求超时
+- PROGRAM ERROR：程序内部错误
+- HIDDEN PROFILE：该账号隐藏战绩
+- NO STATISTICS：该账号没有统计数据
+
+#### 示例
+curl \
+-X 'GET' 'http://{api_url}/a/ship-data/?server=asia&aid=2023619512&ship_id=3762272208' \
 -H 'accept: application/json' \
 -H 'Authorization: Bearer {access_token}'
