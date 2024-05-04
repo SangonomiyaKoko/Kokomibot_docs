@@ -25,7 +25,7 @@ If you are using this bot for the first time, the following tutorial will help y
 
 ### Step 3: View Commands List
 
-1. Click [Here]() to view commands list
+1. Click [Here](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/commands_list.md) to view commands list
 
 
 #### Tips: What are the Recent and Recents functions?
