@@ -32,7 +32,7 @@
 
 ### 步骤三：查看指令列表
 
-1. 点击 [这里]() 查看指令列表
+1. 点击 [这里](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/cn/commands_list.md) 查看指令列表
 
 
 ---
