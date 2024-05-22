@@ -32,6 +32,7 @@
 | `wws online` | `wws online` | 查询服务器在线人数 |
 | `wws search [筛选范围]` | `wws search 10 bb` | 查询指定范围内的船只信息(名称，等级) |
 | `wws <服务器> stats [筛选范围]` | `wws asia stats x cv` | 查询指定服务器指定范围内的船只服务器数据 |
+| `wws stats ship <船名>` | `wws stats ship 大和` | 查询指定船只的服务器总体以及近期数据 |
 
 ## 附录
 
