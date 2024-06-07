@@ -4,6 +4,8 @@ Welcome to use KokomiBot!
 
 If you are using this bot for the first time, the following tutorial will help you get started quickly.
 
+> This document is translated from Chinese using ChatGPT. If there are problems with improper translation, you are welcome to point out private chat authors
+
 ### Step 1: Link your wows account
 
 1. First you need to know region and game ID.
