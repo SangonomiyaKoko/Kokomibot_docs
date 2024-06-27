@@ -16,6 +16,7 @@ If you are using this bot for the first time, the following tutorial will help y
 
 > Example: /link asia SangonomiyaKokomi_
 
+![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/link_account.png)
 
 ## Step 2: Modify Account Settings
 
