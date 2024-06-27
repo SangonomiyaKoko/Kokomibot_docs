@@ -74,8 +74,12 @@ Recent:
 2. This allows you to calculate battle statistics over a period of time, such as random battles or rank battles in the last week. 
 3. Data can be retained for a longer period of time.
 
+![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/recent.png)
+
 Recents: 
 1. Unlike Recent, Recents only keeps data for every battle in the past day. 
 2. The data retained is less, but more detailed.
+
+![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/recents.png)
 
 ---
