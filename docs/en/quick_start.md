@@ -26,7 +26,7 @@ If you are using this bot for the first time, the following tutorial will help y
 
 Because *Recent* and *Recents* are special functions, new accounts are disabled by default. You need to manually enable them **❗ Only the enabled data is recorded **
 
-You can send the command `/set recent on` \\ `/set recents on` to enable the *Recent* or *Recents* function, but the number is limited due to server performance limitations
+You can send the command `/set recent on` or `/set recents on` to enable the *Recent* or *Recents* function, but the number is limited due to server performance limitations
 
 > If you don't know what these two functions do, they will be introduced at the bottom of the article
 
