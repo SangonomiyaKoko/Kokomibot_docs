@@ -29,7 +29,7 @@ Because *Recent* and *Recents* are special functions, new accounts are disabled 
 
 You can enter the command `/set recent on` or `/set recents on` to enable the *Recent* or *Recents* function, but the number is limited due to server performance limitations
 
-> If you don't know what these two functions do, they will be introduced at the bottom of the article
+> If you don't know what these two functions do, they will be introduced at the bottom of the document
 
 ### > Change account language <
 
