@@ -1,6 +1,6 @@
 # Quick start guide
 
-> This document is translated from Chinese using ChatGPT. If there are problems with improper translation, you are welcome to point out private chat authors
+> This document is translated from Chinese using ChatGPT. If there are any issues with the translation, feel free to message the author privately to point them out.
 
 Welcome to use KokomiBot! 
 
