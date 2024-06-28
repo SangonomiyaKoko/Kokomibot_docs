@@ -1,8 +1,8 @@
-## Commands list
+# Commands list
 
-### **❗ Parameters in `<>` are mandatory, and parameters in `[]` are optional**
+## **❗ Parameters in `<>` are mandatory, and parameters in `[]` are optional**
 
-### **❗ Spaces are used to separate instructions. Do not add Spaces between individual parameters (such as ShipName)**
+## **❗ Spaces are used to separate instructions. Do not add Spaces between individual parameters (such as ShipName)**
 
 > This document is translated from Chinese using ChatGPT. If there are problems with improper translation, you are welcome to point out private chat authors
 
