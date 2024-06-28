@@ -12,7 +12,7 @@ If you are using this bot for the first time, the following tutorial will help y
 
 1. First you need to know region and game ID.
 2. Link your game account with the command `/link [Region] [GameID]`.
-    - List of regions: Asia(asia), NorthAmerica(na), Europe(eu), Russia(ru), China(cn)
+    - List of regions: Asia(asia), NorthAmerica(na), Europe(eu), Russia/Belarus(ru), China(cn)
 
 > Example: /link asia SangonomiyaKokomi_
 
