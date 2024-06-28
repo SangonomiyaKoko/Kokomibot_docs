@@ -1,10 +1,11 @@
 # Commands list
 
+> This document is translated from Chinese using ChatGPT. If there are any issues with the translation, feel free to message the author privately to point them out.
+
 ## **❗ Parameters in `<>` are mandatory, and parameters in `[]` are optional**
 
 ## **❗ Spaces are used to separate instructions. Do not add Spaces between individual parameters (such as ShipName)**
 
-> This document is translated from Chinese using ChatGPT. If there are problems with improper translation, you are welcome to point out private chat authors
 
 
 | Commands                                                 | Example                                                                            | Description                                                                                                                                                                    |
