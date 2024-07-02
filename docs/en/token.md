@@ -1,6 +1,6 @@
 # Authorized query data
 
-Some of the data is private, the program is not able to directly access the data, you can authorize the program to obtain this data from the Wargaming server. The detailed data is described in the following sections.
+Some of the data is private, the server is not able to directly access the data, you can authorize the server to obtain this data from the Wargaming server. The detailed data is described in the following sections.
 
 > ❗ We will keep your token data strictly confidential and will not transfer your token information to anyone else.
 
