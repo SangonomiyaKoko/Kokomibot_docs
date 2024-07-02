@@ -73,9 +73,11 @@ Note: In the state of *AC* query, some functions cannot be queried due to interf
 
 > Author Email: 3197206779@qq.com
 
-## Step 3: View Commands List
+## Step 3: View other documents
 
-1. Click [Here](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/commands_list.md) to view commands list
+1. View the commands list, click [here](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/commands_list.md)
+
+2. Authorization server for more detailed user stats, click [here](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/token.md)
 
 
 ### Tips: What are the Recent and Recents functions?
