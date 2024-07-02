@@ -4,7 +4,7 @@ Some of the data is private, the program is not able to directly access the data
 
 > ❗ We will keep your token data strictly confidential and will not transfer your token information to anyone else.
 
-## WargaimgAPI Token
+## WargamingAPI Token
 
 ### Purpose
 
