@@ -25,7 +25,7 @@ Service will have access to your personal data including:
     - [Na](https://api.worldoftanks.com/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
     - [Eu](https://api.worldoftanks.eu/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
     - [Ru](https://api.tanki.su/wot/auth/login/?application_id=c984faa7dc529f4cb0139505d5e8043c&redirect_uri=http://www.wows-coral.com:8000/access-token/)
-    - CN  No Support 
+    - CN - No Support 
 
 ![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/token-4.png)
 
