@@ -23,7 +23,7 @@ Service will have access to your personal data including:
 1. Depending on your region, click on the link
     - [Asia](https://api.worldoftanks.asia/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
     - [Na](https://api.worldoftanks.com/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
-    - [Eu](https://api.worldoftanks.euom:8000/access-token/)
+    - [Eu](https://api.worldoftanks.eu/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
 
 ![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/token-4.png)
 
