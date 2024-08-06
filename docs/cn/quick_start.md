@@ -63,6 +63,7 @@ https://profile.worldofwarships.asia/statistics/2023619512/ac/_abcdefg123456/
 ## 步骤三：查看指令列表
 
 1. 点击 [这里]() 查看指令列表
+2. 点击 [这里]() 查看如何授权用户令牌
 
 
 ---
