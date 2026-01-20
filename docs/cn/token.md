@@ -15,10 +15,10 @@
 ### 授权步骤
 
 1. 根据你所在的服务器，点击对应的链接
-    - [亚服](https://api.worldoftanks.asia/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
-    - [美服](https://api.worldoftanks.com/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
-    - [欧服](https://api.worldoftanks.eu/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://www.wows-coral.com:8000/access-token/)
-    - [俄服](https://api.tanki.su/wot/auth/login/?application_id=c984faa7dc529f4cb0139505d5e8043c&redirect_uri=http://www.wows-coral.com:8000/access-token/)
+    - [亚服](https://api.worldoftanks.asia/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://43.155.60.190:8000/access-token/)
+    - [美服](https://api.worldoftanks.com/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://43.155.60.190:8000/access-token/)
+    - [欧服](https://api.worldoftanks.eu/wot/auth/login/?application_id=aaaa630bfc681dfdbc13c3327eac2e85&redirect_uri=http://43.155.60.190:8000/access-token/)
+    - [俄服](https://api.tanki.su/wot/auth/login/?application_id=c984faa7dc529f4cb0139505d5e8043c&redirect_uri=http://43.155.60.190:8000/access-token/)
     - [国服] ❗ 不支持
 
 ![](https://github.com/SangonomiyaKoko/Kokomibot_docs/blob/main/docs/en/token-4.png)
@@ -42,3 +42,4 @@
     }
 }
 ```
+
